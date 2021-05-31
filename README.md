@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+<div align="center">
+<img width="120px"  src="https://raw.githubusercontent.com/no-te-rindas/logo/main/Logo/LeonidasEsteban-destello-envolvente-cuadrada.png" />
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Portafolio Edwyn
 
-## Available Scripts
+Si te gustan los colores pastel, este portafolio te encantará, resalta tus mejores proyectos y tus habilidades en tu siguiente proceso de reclutamiento.
 
-In the project directory, you can run:
+## Desktop
 
-### `npm start`
+<img width="400px"  src="https://github.com/no-te-rindas/imagenes/blob/main/Readmes/portafolio-edwyn/edwyn-desktop.png?raw=true" />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Mobile
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<img width="200px" src="https://github.com/no-te-rindas/imagenes/blob/main/Readmes/portafolio-edwyn/edwyn-mobile.png?raw=true" />
 
-### `npm test`
+## Disclaimer
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Todas son propuestas, el propósito de **/Proyectos** es brindarte el diseño, el límite de la creación lo dictan tus ganas de hacerlo realidad y tu skills del momento a la hora de codear.
 
-### `npm run build`
+## Nivel 1
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Estilo libre. Lleva el diseño al código utilizando tu framework favorito, o con HTML y CSS, no hay ninguna limitación.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Requerimientos
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Accesibilidad como prioridad
+- Sube tu código a GitHub
+- Publica tu resultado con github pages
+- Mándalo a revisión desde tu [perfil](https://leonidasesteban.com/estudiante)
 
-### `npm run eject`
+## Nivel 2
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Compra tu dominio y despliega ahí tu portafolio, además de agregar tu información y tu foto.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Requerimientos
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Dominio custom
+- Accesibilidad como prioridad
+- Sube tu código a GitHub
+- Publica tu resultado
+- Mándalo a revisión desde tu [perfil](https://leonidasesteban.com/estudiante)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Nivel 3
 
-## Learn More
+Dale vida al formulario de contacto, lo puedes lograr sin backend.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Tenemos un par de clases para ayudarte:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Creando un formulario de contacto funcional con JavaScript](https://youtu.be/V79bslyDIT8)
 
-### Code Splitting
+- [Envío de formulario de contacto por correo con el API de Formspree](https://youtu.be/qtH8PLuy1Ck)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Requerimientos
 
-### Analyzing the Bundle Size
+- Formulario funcional y accesible
+- Accesibilidad como prioridad
+- Sube tu código a GitHub
+- Publica tu resultado
+- Mándalo a revisión desde tu [perfil](https://leonidasesteban.com/estudiante)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Créditos
 
-### Making a Progressive Web App
+Encuentra más proyectos asombrosos en [/Proyectos](https://leonidasesteban.com/proyectos)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Diseñado con ♥️ en leonidasesteban.com
