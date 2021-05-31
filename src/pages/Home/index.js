@@ -1,4 +1,4 @@
-import '../../Styles/Home.css'
+import '../../assets/styles/home.css'
 
 import Header from '../../components/Header'
 import Me from '../../components/Me'
@@ -8,13 +8,13 @@ import Footer from '../../components/Footer'
 
 function Home(){
   return(
-    <section className="container">
+    <>
       <Header />
       <Me />
       <Projects />
       <Contact />
       <Footer />
-    </section>
+    </>
   )
 }
 

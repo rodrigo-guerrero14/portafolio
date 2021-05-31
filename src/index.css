@@ -5,8 +5,29 @@
   --color-pink: #FED9DA;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'Cantarell', sans-serif;
   background-color: var(--color-white);
+  position: relative;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Exo', sans-serif;
+}
+
+.container{
+  max-width: 360px;
+  margin: auto;
+  padding: 0 16px;
+  min-height: inherit;
+}
+
+.btn{
+  background-color: var(--color-purple);
+  color: var(--color-white);
+  padding: 12px;
 }

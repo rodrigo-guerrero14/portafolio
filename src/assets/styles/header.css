@@ -1,0 +1,46 @@
+.header{
+  background-color: var(--color-pink);
+  min-height: 80px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.logo{
+  color: var(--color-purple);
+}
+
+.header-content{
+  min-height: inherit;
+}
+
+.header-content div{
+  align-items: center;
+  display: flex;
+  flex-grow: 0;
+  justify-content: space-between;
+}
+
+.header-content div span{
+  font-family: "Exo", sans-serif;
+}
+
+.header-content nav{
+  display: none;
+  background-color: var(--color-white);
+  position: absolute;
+  top: 0;
+  right: 277px;
+  bottom: 0;
+  left: 0;
+}
+
+nav ul{
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li{
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
