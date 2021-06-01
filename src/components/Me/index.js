@@ -15,17 +15,17 @@ function Me(){
           <div className="technologies">
             <article>
               <img src={github_icon} alt="Github" />
-              <h2>Implementaciones de la más alta calidad.</h2>
+              <h3>Implementaciones de la más alta calidad.</h3>
             </article>
 
             <article>
               <img src={figma_icon} alt="Figma" />
-              <h2>Diseños pixel perfect creados en la mejor herramienta de diseño.</h2>
+              <h3>Diseños pixel perfect creados en la mejor herramienta de diseño.</h3>
             </article>
 
             <article>
               <img src={react_icon} alt="React" />
-              <h2>React desde 0, sin dependencias y usando solo el lenguaje JavaScript.</h2>
+              <h3>React desde 0, sin dependencias y usando solo el lenguaje JavaScript.</h3>
             </article>
           </div>
 
