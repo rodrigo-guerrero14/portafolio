@@ -39,4 +39,8 @@ h1, h2, h3, h4, h5, h6{
 
 .title-section{
   text-align: center;
+  color: var(--color-purple);
+  font-size: 1.78em ;
+  line-height: 1em;
+  font-weight: 700;
 }

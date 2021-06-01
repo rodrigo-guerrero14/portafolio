@@ -17,9 +17,9 @@ function Header(){
           <nav>
             <ul>
               <span className="logo">Rodrigo Guerrero</span>
-              <li>Sobre mi</li>
-              <li>Proyectos</li>
-              <li>Contacto</li>
+              <li><a href="#me">Sobre mi</a></li>
+              <li><a href="#projects">Proyectos</a></li>
+              <li><a href="#contact">Contacto</a></li>
             </ul>
           </nav>
 
