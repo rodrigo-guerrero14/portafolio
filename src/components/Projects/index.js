@@ -34,7 +34,7 @@ function Projects(){
               <h4>Pablo lee</h4>
               <p>Landing page con diseño responsivo, se ha desarrollado Mobile first, para facilitar su uso en dispositivos pequeños.</p>
 
-              <h4>Tecnologias usadas</h4>
+              <h5>Tecnologias usadas</h5>
               <ul>
                 <li>HTML</li>
                 <li>Vanilla CSS</li>
@@ -87,7 +87,7 @@ function Projects(){
             </picture>
 
             <div className="description">
-              <h4>Proyecto en React - lista de comentarios</h4>
+              <h4>Proyecto en React: lista de comentarios</h4>
               <p>Proyecto desarrollado en react, en donde se ha usado el hook useState para agregar una lista de comentarios, los cuales se renderizan de forma automatica, asi mismo se pueden eliminar estos elementos del DOM.</p>
 
               <h5>Tecnologias usadas</h5>
