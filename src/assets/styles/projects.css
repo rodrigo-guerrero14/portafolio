@@ -1,0 +1,122 @@
+.projects-content{
+  padding-top: 40px;
+  padding-bottom: 200px;
+}
+
+.projects-content .title-section{
+  margin-bottom: 24px;
+}
+
+.projects-content .buttons{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+
+.projects-content .buttons .btn{
+  background-color: var(--color-white);
+  color: var(--color-purple);
+  font-weight: 700;
+}
+
+.projects-content .buttons .btn:hover{
+  background-color: var(--color-pink);
+}
+
+.projects-content .buttons .btn{
+  font-family: "Cantarell", sans-serif;
+}
+
+.projects-content .project{
+  margin-bottom: 96px;
+}
+
+.projects-content .project:last-child{
+  margin-bottom: 0;
+}
+
+.projects-content .project img{
+  max-width: 100%;
+}
+
+.projects-content .project picture{
+  display: block;
+  position: relative;
+}
+
+.projects-content .project picture::after{
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(transparent 50%, var(--color-pink) 85%);
+  position: absolute;
+  z-index: 200;
+}
+
+.projects-content #project-2 picture::after{
+  background: linear-gradient(transparent 50%, var(--color-purple) 85%);
+}
+
+.projects-content .project .buttons{
+  flex-direction: column;
+  margin-bottom: 0;
+}
+
+.projects-content .project .buttons .btn{
+  background-color: var(--color-pink);
+  margin-bottom: 8px;
+  border: 1px solid var(--color-purple);
+}
+
+.projects-content .project .buttons .btn:nth-child(2){
+  background-color: var(--color-purple);
+  margin-bottom: 0;
+  border: none;
+}
+
+.projects-content .project .buttons .btn:nth-child(2) a{
+  color: var(--color-white);
+}
+
+.projects-content .project .buttons .btn a{
+  color: var(--color-purple);
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  font-family: "Cantarell", sans-serif;
+}
+
+.projects-content .project .description{
+  background: linear-gradient(transparent 0%, var(--color-pink) 5%);
+  box-shadow: 16px 16px 0px var(--color-purple);
+  padding: 64px 24px;
+  z-index: 10;
+  position: relative;
+  top: -50px;
+}
+
+.projects-content #project-2 .description{
+  background: linear-gradient(transparent 0px, var(--color-purple) 50px);
+  box-shadow: 16px 16px 0px var(--color-pink);
+  color: var(--color-white);
+}
+
+.projects-content #project-2 .description .buttons .btn:first-child{
+  background-color: var(--color-purple);
+  border: 1px solid var(--color-pink);
+}
+
+.projects-content #project-2 .description .buttons .btn:first-child a{
+  color: var(--color-white);
+}
+
+.projects-content #project-2 .description .buttons .btn{
+  background-color:var(--color-pink);
+}
+
+.projects-content #project-2 .description .buttons .btn a{
+  color:var(--color-purple)
+}
