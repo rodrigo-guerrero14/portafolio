@@ -2,3 +2,58 @@
   background-color: var(--color-pink);
   padding: 64px 0;
 }
+
+.contact-content .title-section{
+  font-size: 48px;
+  line-height: 77.66px;
+}
+
+.contact-content p{
+  margin: 16px 0;
+  text-align: center;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.contact-content .form{
+  margin-top: 16px;
+  padding-left: 32px;
+}
+
+.contact-content .form input,
+.contact-content .form textarea,
+.contact-content .form .btn {
+  width: 100%;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.contact-content .form input,
+.contact-content .form textarea{
+  padding: 12px 10px 12px 16px;
+  border: none;
+  outline: none;
+}
+
+.contact-content .form input::placeholder,
+.contact-content .form textarea::placeholder,
+.contact-content .form input,
+.contact-content .form textarea{
+  color: var(--color-purple) !important;
+  font-family: "Cantarell";
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.contact-content .form textarea{
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.contact-content .form .btn {
+  color: var(--color-white);
+  font-family: "Cantarell", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
