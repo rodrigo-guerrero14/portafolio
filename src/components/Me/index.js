@@ -3,6 +3,7 @@ import github_icon from '../../assets/images/icon-github.png'
 import figma_icon from '../../assets/images/icon-figma.png'
 import react_icon from '../../assets/images/icon-react.png'
 import photo  from '../../assets/images/person.png'
+import photo_desktop from '../../assets/images/person-desktop.png'
 
 function Me(){
   return(
@@ -11,12 +12,12 @@ function Me(){
         <div className="me-content">
 
           <picture className="photo-container">
+            <source srcSet={photo_desktop} alt="i´m Rodrigo"  media="(min-width: 800px)"/>
             <img src={photo} alt="i'm Rodrigo" className="me-photo"/>
-            {/* otra foto con un tamaño distinto*/}
           </picture>
 
           <h1 className="title-section">¡Hola a todos! Soy Rodrigo Guerrero</h1>
-          <p>Devloper que le encanta implementar diseños que inspiran y atraen a las personas</p>
+          <p>Developer que le encanta implementar diseños que inspiran y atraen a las personas</p>
 
           <div className="technologies">
             <article>

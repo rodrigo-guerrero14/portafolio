@@ -48,9 +48,8 @@
   line-height: 56px;
   margin-bottom: 30px;
   color: var(--color-pink);
-
 }
 
-.footer-content .logo-container p:first-of-type{
-  margin-bottom: 8px;
+.footer-content .logo-container p{
+  max-width: 22ch;
 }

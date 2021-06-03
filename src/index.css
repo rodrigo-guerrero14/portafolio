@@ -19,6 +19,7 @@ body {
 h1, h2, h3, h4, h5, h6{
   font-family: 'Exo', sans-serif;
   margin: 0;
+  letter-spacing: 1%;
 }
 
 .container{
@@ -41,6 +42,17 @@ h1, h2, h3, h4, h5, h6{
 .btn a{
   font-family: "Cantarell", sans-serif;
   font-weight: 700;
+}
+
+a{
+  font-family: "Cantarell", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--color-purple);
+}
+
+a:hover{
+  text-decoration: underline;
 }
 
 .title-section{

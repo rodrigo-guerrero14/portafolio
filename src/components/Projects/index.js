@@ -13,21 +13,21 @@ function Projects(){
 
           <div className="buttons">
             <a href="#project-1">
-              <button className="btn">Niko</button>
+              <button className="btn">Pablo lee</button>
             </a>
 
             <a href="#project-2">
-              <button className="btn">Marvol</button>
+              <button className="btn">Sector</button>
             </a>
 
             <a href="#project-3">
-              <button className="btn">Spotifu</button>
+              <button className="btn">Proyecto en React</button>
             </a>
           </div>
 
           <article id="project-1" className="project">
             <picture>
-              <img src={project_1} alt="niko´s project" />
+              <img src={project_1} alt="pablo lee´s project" />
             </picture>
 
             <div className="description">
@@ -83,7 +83,7 @@ function Projects(){
 
           <article id="project-3" className="project">
             <picture>
-              <img src={project_3} alt="niko´s project" />
+              <img src={project_3} alt="react project" />
             </picture>
 
             <div className="description">

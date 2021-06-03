@@ -19,7 +19,7 @@ function Header(){
           <div className="header-content">
 
             <div className="logo-container">
-              <img src={icon} alt="icon" onClick={handleModal}/>
+              <img src={icon} alt="icon" onClick={handleModal} className="menu-icon"/>
               <span className="logo">Rodrigo Guerrero</span>
             </div>
 
