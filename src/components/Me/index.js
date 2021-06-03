@@ -6,7 +6,7 @@ import photo  from '../../assets/images/person.png'
 
 function Me(){
   return(
-    <section className="me">
+    <section className="me" id="me">
       <div className="container">
         <div className="me-content">
 

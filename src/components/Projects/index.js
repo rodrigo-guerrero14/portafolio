@@ -6,7 +6,7 @@ import project_3 from '../../assets/images/react_project.png'
 function Projects(){
 
   return(
-    <section className="projects">
+    <section className="projects" id="projects">
       <div className="container">
         <div className="projects-content">
           <h2 className="title-section">Proyectos</h2>

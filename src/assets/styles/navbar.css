@@ -1,0 +1,30 @@
+.desktop{
+  display: none;
+}
+
+.desktop ul li{
+  list-style: none;
+  display: inline-block;
+}
+
+.modal ul {
+  list-style: none;
+  padding: 0;
+}
+
+.modal ul li{
+  margin-bottom: 56px;
+}
+
+.modal ul li a{
+  text-decoration: none;
+  font-family: 'Exo', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+}
+
+.modal ul li a:hover{
+  color: var(--color-black);
+}

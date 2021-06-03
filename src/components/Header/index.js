@@ -1,34 +1,38 @@
+import React, {useState} from 'react'
 import '../../assets/styles/header.css'
 import icon from '../../assets/images/icon-menu.png'
-
 import file from '../../assets/cv/cv-rodrigo-guerrero.pdf'
+import Modal from '../Modal'
+import Navbar from '../Navbar'
 
 function Header(){
+  const [isOpen, setOpen] = useState(false)
+
+  const handleModal = () => {
+    setOpen(true)
+  }
+
   return(
-    <header className="header">
-      <div className="container">
-        <div className="header-content">
+    <>
+      <header className="header">
+        <div className="container">
+          <div className="header-content">
 
-          <div className="logo-container">
-            <img src={icon} alt="icon" />
-            <span className="logo">Rodrigo Guerrero</span>
-          </div>
-
-          <nav>
-            <ul>
+            <div className="logo-container">
+              <img src={icon} alt="icon" onClick={handleModal}/>
               <span className="logo">Rodrigo Guerrero</span>
-              <li><a href="#me">Sobre mi</a></li>
-              <li><a href="#projects">Proyectos</a></li>
-              <li><a href="#contact">Contacto</a></li>
-            </ul>
-          </nav>
+            </div>
 
-          <button className="btn">
-            <a href={file} download="curriculum-rodrigo-guerrero.pdf">Currículum</a>
-          </button>
+            <Navbar isModal={false} />
+
+            <button className="btn">
+              <a href={file} download="curriculum-rodrigo-guerrero.pdf">Currículum</a>
+            </button>
+          </div>
         </div>
-      </div>
-    </header>
+      </header>
+      <Modal isOpen={isOpen} setOpen={setOpen}/>
+    </>
   )
 }
 
