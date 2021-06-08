@@ -1,7 +1,7 @@
 @media screen and (min-width: 800px){
   .container{
-    max-width: 1366px;
-    padding:0 133px ;
+    max-width: 1366px !important;
+    padding: 0 133px !important;
   }
 
   /* Header section */
@@ -39,8 +39,14 @@
     font-weight: 500;
     line-height: 27px;
     text-align: center;
-    max-width: 426px;
+    max-width: 90%;
     margin: 0 auto 40px auto !important;
+  }
+
+  .me-content .me-photo{
+    width: 200px !important;
+    max-height: 200px !important;
+    border: 8px solid var(--color-purple) !important;
   }
 
   .me-content .technologies{
@@ -71,13 +77,9 @@
     margin-bottom: 128px !important;
   }
 
-  .projects-content > .buttons .btn a{
+  .projects-content > .buttons a .btn{
     font-size: 16px !important;
   }
-
-  /* .projects-content .project:first-of-type{
-    margin-top: 128px;
-  } */
 
   .projects-content .project{
     display: grid;
@@ -157,6 +159,13 @@
   .footer-content{
     display: flex;
     justify-content: space-between;
+  }
+
+  .footer-content .logo-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 628px;
+    align-items: flex-end;
   }
 
   .footer-content .logo-container p{

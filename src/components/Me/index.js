@@ -2,8 +2,8 @@ import '../../assets/styles/me.css'
 import github_icon from '../../assets/images/icon-github.png'
 import figma_icon from '../../assets/images/icon-figma.png'
 import react_icon from '../../assets/images/icon-react.png'
-import photo  from '../../assets/images/person.png'
-import photo_desktop from '../../assets/images/person-desktop.png'
+import photo  from '../../assets/images/me-mobile.png'
+import photo_desktop from '../../assets/images/me-desktop.png'
 
 function Me(){
   return(
@@ -12,12 +12,12 @@ function Me(){
         <div className="me-content">
 
           <picture className="photo-container">
-            <source srcSet={photo_desktop} alt="i´m Rodrigo"  media="(min-width: 800px)"/>
+            <source media="(min-width: 800px)" srcSet={photo_desktop} />
             <img src={photo} alt="i'm Rodrigo" className="me-photo"/>
           </picture>
 
           <h1 className="title-section">¡Hola a todos! Soy Rodrigo Guerrero</h1>
-          <p>Developer que le encanta implementar diseños que inspiran y atraen a las personas</p>
+          <p>Soy un web developer y mi objetivo es buscar, colaborar y aprender aún más sobre el mundo web, durante un tiempo me estuve perfeccionando, estudiando las bases del desarrollo web, tengo la certeza que puedo aportar a un buen ambiente laboral y a apoyar en el desarrollo de software.</p>
 
           <div className="technologies">
             <article>

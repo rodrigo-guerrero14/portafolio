@@ -5,6 +5,18 @@
   bottom: 0;
   right: 0;
   background: rgba(0, 0, 0, .5);
+  z-index: 1000;
+  transition-duration: 200ms;
+}
+
+.menu{
+  background: var(--color-white);
+  display: block;
+  max-width: 50%;
+  padding:28px 114px 0 24px;
+  min-height: 100vh;
+  animation: menu-movement ease-in-out  600ms;
+  position: relative;
 }
 
 .modal{
@@ -13,4 +25,40 @@
   max-width: 50%;
   padding:28px 114px 0 24px;
   min-height: 100vh;
+}
+
+.modal.message{
+  border-radius: 8px;
+  padding:28px 24px 0 24px;
+  position: absolute;
+  bottom: 756px;
+  max-width: 430px;
+  min-height: 300px;
+  left: calc(50% - 230px);
+}
+
+.message p {
+  font-family: 'Exo', sans-serif;
+  color: var(--color-purple);
+  text-align: center;
+  font-size: 24px;
+}
+
+.message .close{
+  display: block;
+  margin: auto;
+  margin-top: 18px;
+  color: var(--color-white);
+  font-weight: 700;
+  font-family: "Cantarell", sans-serif;
+}
+
+@keyframes menu-movement {
+  from {
+    left: -500px;
+  }
+
+  to{
+    left: 0;
+  }
 }

@@ -1,13 +1,13 @@
 import '../../assets/styles/navbar.css'
 
-const Navbar = ({isModal, setOpen}) => {
+const Navbar = ({isMenu, setOpen}) => {
 
   const handleCloseModal = () => {
     setOpen(false)
   }
 
-  return isModal ? (
-    <nav className="modal navbar">
+  return isMenu ? (
+    <nav className="menu navbar">
       <ul onClick={handleCloseModal}>
         <li><a href="#me">Hola</a></li>
         <li><a href="#projects">Proyectos</a></li>

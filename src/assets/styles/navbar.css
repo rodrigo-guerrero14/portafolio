@@ -7,16 +7,18 @@
   display: inline-block;
 }
 
-.modal ul {
+.menu ul {
   list-style: none;
   padding: 0;
 }
 
-.modal ul li{
+.menu ul li{
   margin-bottom: 56px;
 }
 
-.modal ul li a{
+.menu ul li a{
+  color: var(--color-black);
+  opacity: .5;
   text-decoration: none;
   font-family: 'Exo', sans-serif;
   font-size: 24px;
@@ -25,6 +27,6 @@
   letter-spacing: 0.01em;
 }
 
-.modal ul li a:hover{
+.menu ul li a:hover{
   color: var(--color-black);
 }

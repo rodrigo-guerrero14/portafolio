@@ -32,22 +32,14 @@ function Projects(){
 
             <div className="description">
               <h4>Pablo lee</h4>
-              <p>Landing page con diseño responsivo, se ha desarrollado Mobile first, para facilitar su uso en dispositivos pequeños.</p>
-
-              <h5>Tecnologias usadas</h5>
-              <ul>
-                <li>HTML</li>
-                <li>Vanilla CSS</li>
-                <li>Grid y Flexbox</li>
-              </ul>
-
+              <p>Landing page con diseño responsivo, se ha desarrollado Mobile first, para facilitar su uso en dispositivos pequeños. En donde cabe mencionar que este proyecto se ha desarrollado con tecnologias Vanilla.</p>
               <div className="buttons">
-                <button className="btn">
-                  <a href="https://rodrigo-guerrero14.github.io/pablo-lee/" target="_blank" rel="noreferrer">Ver código</a>
-                </button>
-                <button className="btn">
-                  <a href="https://rodrigo-guerrero14.github.io/pablo-lee/" target="_blank" rel="noreferrer">Ver proyecto</a>
-                </button>
+                <a href="https://github.com/rodrigo-guerrero14/pablo-lee" target="_blank" rel="noreferrer">
+                  <button className="btn">Ver código</button>
+                </a>
+                <a href="https://rodrigo-guerrero14.github.io/pablo-lee/" target="_blank" rel="noreferrer">
+                  <button className="btn">Ver proyecto</button>
+                </a>
               </div>
             </div>
           </article>
@@ -60,22 +52,14 @@ function Projects(){
             <div className="description">
               <h4>Sector</h4>
               <p>Se ha desarrollado una landing page con el fin de demostrar el conocimiento en tecnologias como HTML, maquetación y CSS, además se ha implementado diseño responsivo, generando diferentes breakpoints para que la aplicacion web se adapte a todo tipo de pantallas.</p>
-
-              <h5>Tecnologias usadas</h5>
-              <ul>
-                <li>HTML</li>
-                <li>Vanilla CSS</li>
-                <li>Grid y Flexbox</li>
-              </ul>
-
               <div className="buttons">
-                <button className="btn">
-                  <a href="https://rodrigo-guerrero14.github.io/sector/" target="_blank" rel="noreferrer">Ver código</a>
-                </button>
+                <a href="https://github.com/rodrigo-guerrero14/sector" target="_blank" rel="noreferrer">
+                  <button className="btn">Ver código</button>
+                </a>
 
-                <button className="btn">
-                  <a href="https://rodrigo-guerrero14.github.io/sector/" target="_blank" rel="noreferrer">Ver proyecto</a>
-                </button>
+                <a href="https://rodrigo-guerrero14.github.io/sector/" target="_blank" rel="noreferrer">
+                  <button className="btn">Ver proyecto</button>
+                </a>
               </div>
 
             </div>
@@ -90,23 +74,16 @@ function Projects(){
               <h4>Proyecto en React: lista de comentarios</h4>
               <p>Proyecto desarrollado en react, en donde se ha usado el hook useState para agregar una lista de comentarios, los cuales se renderizan de forma automatica, asi mismo se pueden eliminar estos elementos del DOM.</p>
 
-              <h5>Tecnologias usadas</h5>
-              <ul>
-                <li>React</li>
-                <li>Hooks</li>
-                <li>useState</li>
-                <li>Vanilla CSS</li>
-              </ul>
-
               <div className="buttons">
-                <button className="btn">
-                  <a href="https://rodrigo-guerrero14.github.io/react-states/" target="_blank" rel="noreferrer">Ver código</a>
-                </button>
-                <button className="btn">
-                  <a href="https://rodrigo-guerrero14.github.io/react-states/" target="_blank" rel="noreferrer">Ver proyecto</a>
-                </button>
-              </div>
 
+                <a href="https://github.com/rodrigo-guerrero14/react-states" target="_blank" rel="noreferrer">
+                  <button className="btn">Ver código</button>
+                </a>
+
+                  <a href="https://rodrigo-guerrero14.github.io/react-states/" target="_blank" rel="noreferrer">
+                    <button className="btn">Ver proyecto</button>
+                  </a>
+              </div>
             </div>
           </article>
         </div>

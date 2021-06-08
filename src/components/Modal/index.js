@@ -1,19 +1,24 @@
 import React from 'react'
 import {createPortal} from 'react-dom'
+
 import '../../assets/styles/modal.css'
-import Navbar from '../Navbar'
 
-const Modal = ({isOpen, setOpen}) => {
-  const modalContainer = document.getElementById('menu')
+const SuccessModal = ({isOpen, setOpen, children}) => {
+  const modalContainer = document.getElementById('modal')
+  const handleCloseModal = () => {
+    setOpen(false)
+  }
 
-  return isOpen ? createPortal(
+  return isOpen ?
+  createPortal(
     <section className="modal-container">
-      <div className="modal">
-        <span>Rodrigo Guerrero</span>
-        <Navbar isModal={true} setOpen={setOpen}/>
+      <div className="modal message">
+        {children}
+        <button className="btn close" onClick={handleCloseModal}>Cerrar</button>
       </div>
     </section>,
-    modalContainer) : null
+    modalContainer
+  ) : null
 }
 
-export default Modal
+export default SuccessModal

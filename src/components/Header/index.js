@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import '../../assets/styles/header.css'
 import icon from '../../assets/images/icon-menu.png'
 import file from '../../assets/cv/cv-rodrigo-guerrero.pdf'
-import Modal from '../Modal'
+import Menu from '../Menu'
 import Navbar from '../Navbar'
 
 function Header(){
@@ -31,7 +31,7 @@ function Header(){
           </div>
         </div>
       </header>
-      <Modal isOpen={isOpen} setOpen={setOpen}/>
+      <Menu isOpen={isOpen} setOpen={setOpen}/>
     </>
   )
 }
