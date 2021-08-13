@@ -74,7 +74,7 @@ function Contact(){
         <div className="container">
           <div className="contact-content">
             <h2 className="title-section">Contact</h2>
-            <p> Si está interesado en travajar conmigo en su próximo proyecto, no dude en ponerse en contacto</p>
+            <p>Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto</p>
             <form action="" className="form" onSubmit={handleSendMessage}>
               <input type="text" placeholder="Nombre completo" name="from_name" value={toSend.from_name} onChange={handleChange}/>
               <input type="email" placeholder="Correo electrónico" name="from_email" value={toSend.from_email} onChange={handleChange} pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/>

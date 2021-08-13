@@ -32,7 +32,7 @@ function Me(){
 
             <article>
               <img src={react_icon} alt="React" />
-              <h3>React desde 0, sin dependencias y usando solo el lenguaje JavaScript.</h3>
+              <h3>Desarrollo con ReactJs, una de las librerias más usadas la actualidad.</h3>
             </article>
           </div>
 
